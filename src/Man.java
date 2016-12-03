@@ -44,13 +44,31 @@ public class Man {
         this.second_name = sArr[1];
     }
 
+    String displayUsers(Man man[]) {
+        StringBuilder sb = new StringBuilder();
+        for (Man b : man
+                ) {
+            sb.append(b.toString() + "\n");
+        }
+        return sb.toString();
+    }
+
 // toString
 
     public String toString() {
         return this.name + " " + this.second_name + ": " + age;
     }
 
+// Statics
 
+    static int getAverageAge(Man man[]) {
+        int averageAge = 0;
+        for (Man b : man
+                ) {
+            averageAge += b.age;
+        }
+        return averageAge / man.length;
+    }
 }
 
 /*

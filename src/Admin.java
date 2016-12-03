@@ -6,11 +6,14 @@ public class Admin extends Man {
     private int schoolerCnt;
     private int teacherCnt;
 
+    // default constructor
+
     Admin() {
         this.Schoolers = new Schooler[MAX_SCHOOLER_CNT];
         this.Teachers = new Teacher[MAX_TEACHER_CNT];
     }
 
+    // Methods
 
     void addSchooler(Schooler a) {
         this.Schoolers[this.schoolerCnt] = a;
