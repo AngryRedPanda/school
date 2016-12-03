@@ -1,7 +1,7 @@
 
 public class Schooler extends Man {
-    Mark Mark[];
-    int markCnt=0;
+    private Mark Mark[];
+    private int markCnt = 0;
 
     Schooler() {
         this.Mark = new Mark[MARK_CNT];
