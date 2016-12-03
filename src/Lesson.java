@@ -1,7 +1,7 @@
 
 public class Lesson {
-    private String name;
-    private String date;
+    String name;
+    String date;
 
     Lesson(String name, String date) {
         this.name = name;

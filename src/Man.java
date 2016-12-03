@@ -47,6 +47,14 @@ public class Man {
 // toString
 
     public String toString() {
-        return this.name + " " + this.second_name + ":" + age;
+        return this.name + " " + this.second_name + ": " + age;
     }
+
+
 }
+
+/*
+19) Добавить в класс Man статический метод getAverageAge, принимающий в качестве аргумента массив класса Man, выводящий средний возраст всех людей
+
+20) Добавить метод в класс Man displayUsers(), принимающий в качестве аргумента массив класса Man и выводящий в консоль построчно текстовые представления объектов(toString)
+*/
