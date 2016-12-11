@@ -1,7 +1,7 @@
 
 public class Admin extends Man {
 
-    private Schooler Schoolers[];
+    private Scholer Schoolers[];
     private Teacher Teachers[];
     private int schoolerCnt;
     private int teacherCnt;
@@ -10,13 +10,13 @@ public class Admin extends Man {
 
     Admin(String name, String second_name, int age) {
         super(name, second_name, age);
-        this.Schoolers = new Schooler[MAX_SCHOOLER_CNT];
+        this.Schoolers = new Scholer[MAX_SCHOOLER_CNT];
         this.Teachers = new Teacher[MAX_TEACHER_CNT];
     }
 
     // Methods
 
-    void addSchooler(Schooler a) {
+    void addSchooler(Scholer a) {
         this.Schoolers[this.schoolerCnt] = a;
         this.schoolerCnt++;
     }
