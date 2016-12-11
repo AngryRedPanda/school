@@ -3,7 +3,8 @@ public class Teacher extends Man {
     private Lesson Lessons[];
     private int lessonCnt;
 
-    Teacher() {
+    Teacher(String name, String second_name, int age) {
+        super(name, second_name, age);
         this.Lessons = new Lesson[MAC_LESSON_CNT];
     }
 

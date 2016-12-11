@@ -8,7 +8,8 @@ public class Admin extends Man {
 
     // default constructor
 
-    Admin() {
+    Admin(String name, String second_name, int age) {
+        super(name, second_name, age);
         this.Schoolers = new Schooler[MAX_SCHOOLER_CNT];
         this.Teachers = new Teacher[MAX_TEACHER_CNT];
     }

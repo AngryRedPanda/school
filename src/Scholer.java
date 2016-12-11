@@ -1,9 +1,10 @@
 
-public class Schooler extends Man {
+public class Scholer extends Man {
     private Mark Mark[];
     private int markCnt = 0;
 
-    Schooler() {
+    Scholer(String name, String second_name, int age) {
+        super(name, second_name, age);
         this.Mark = new Mark[MARK_CNT];
     }
 
@@ -18,7 +19,7 @@ public class Schooler extends Man {
         for (int i = 0; i < this.markCnt; i++) {
             averageMark += this.Mark[i].value;
         }
-        return averageMark;
+        return averageMark / this.markCnt;
     }
 
     double getAverageMarkByLesson(String lessonName) {

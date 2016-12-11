@@ -4,12 +4,7 @@ public class Man {
     private String second_name;
     private int age;
 
-// Main constructors
-
-    Man() {
-
-    }
-
+    // Main constructor
     Man(String name, String second_name, int age) {
         this.name = name;
         this.second_name = second_name;

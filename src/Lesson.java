@@ -1,6 +1,6 @@
 
 public class Lesson {
-    private String name;
+    String name;
     private String date;
 
     Lesson(String name, String date) {
